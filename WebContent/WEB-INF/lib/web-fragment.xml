@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-fragment>
+	<name>Commerce TP</name>
+	<listener>
+		<listener-class>
+			fr.cesi.bibliotheque.entity.Livres
+		</listener-class>
+	</listener>
+
+	<servlet>
+		<servlet-name>Accueil</servlet-name>
+		<servlet-class>fr.cesi.bibliotheque.servlet.Accueil
+		</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>insertLivres</servlet-name>
+		<servlet-class>fr.cesi.bibliotheque.servlet.InsertLivres
+		</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>insertUser</servlet-name>
+		<servlet-class>fr.cesi.bibliotheque.servlet.InsertUser
+		</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>LoginAdmin</servlet-name>
+		<servlet-class>fr.cesi.bibliotheque.servlet.LoginAdmin
+		</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>LoginClient</servlet-name>
+		<servlet-class>fr.cesi.bibliotheque.servlet.LoginClient
+		</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>InitData</servlet-name>
+		<servlet-class>fr.cesi.bibliotheque.servlet.InitialisationDate
+		</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>RemoveLivre</servlet-name>
+		<servlet-class>fr.cesi.bibliotheque.servlet.RemoveLivre
+		</servlet-class>
+	</servlet>
+
+</web-fragment>
